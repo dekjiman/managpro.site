@@ -78,7 +78,10 @@ export const env = createEnv({
     S3_ENDPOINT: z.string().optional(),
     S3_FORCE_PATH_STYLE: z.string().optional(),
     EMAIL_FROM: z.string().optional(),
-    REDIS_URL: z.string().url().optional().or(z.literal("")),
+    REDIS_URL: z
+      .string()
+      .transform((s) => (s === "" ? undefined : s))
+      .optional(),
   },
 
   /**
