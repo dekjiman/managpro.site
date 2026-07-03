@@ -1,0 +1,5 @@
+declare module 'apexcharts/line'
+declare module 'apexcharts/bar'
+declare module 'apexcharts/pie'
+declare module 'apexcharts/radialBar'
+declare module 'apexcharts/features/legend'

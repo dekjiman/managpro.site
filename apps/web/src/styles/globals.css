@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 14px;
+}
+
+:root {
+  --color-primary-50: #edf7ff;
+  --color-primary-100: #d6ecff;
+  --color-primary-200: #acd8ff;
+  --color-primary-300: #7abfff;
+  --color-primary-400: #3f9ce8;
+  --color-primary-500: #147dd4;
+  --color-primary-600: #066fd1;
+  --color-primary-700: #055aa8;
+  --color-primary-800: #064a87;
+  --color-primary-900: #073a68;
+  --color-primary-950: #042342;
+}
+
+.dark {
+  --color-primary-50: #0d1f36;
+  --color-primary-100: #132a45;
+  --color-primary-200: #1a3a5c;
+  --color-primary-300: #1e4d7a;
+  --color-primary-700: #6da4f0;
+  --color-primary-800: #8fb9f7;
+  --color-primary-900: #b3d1fa;
+  --color-primary-950: #d9e7fc;
+}
+
+[contenteditable="true"]:empty:before {
+  content: attr(placeholder);
+  display: block;
+  color: #707070;
+  font-size: 0.8rem;
+}
+
+.gradient-border::before {
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    transparent 45deg,
+    rgba(244, 114, 182, 0.4) 85deg,
+    rgba(192, 132, 252, 0.4) 95deg,
+    transparent 110deg,
+    transparent 360deg
+  );
+  content: "";
+  position: absolute;
+  inset: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+@layer utilities {
+  @supports not (overflow-wrap: anywhere) {
+    .break-anywhere {
+      word-break: break-word;
+    }
+  }
+
+  @supports (overflow-wrap: anywhere) {
+    .break-anywhere {
+      overflow-wrap: anywhere;
+    }
+  }
+}
+
+/* Tippy.js tooltip theme */
+.tippy-box[data-theme~="tooltip"] {
+  @apply rounded-md border border-light-600 bg-white px-2 py-1 text-sm text-neutral-900 shadow-lg dark:border-dark-600 dark:bg-dark-100 dark:text-dark-1000;
+}
+
+.tippy-box[data-theme~="tooltip"] > .tippy-arrow::before {
+  @apply border-t-light-600 dark:border-t-dark-600;
+}
+
+.tippy-box[data-theme~="tooltip"][data-placement^="bottom"]
+  > .tippy-arrow::before {
+  @apply border-b-light-600 dark:border-b-dark-600;
+}

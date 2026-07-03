@@ -1,0 +1,19 @@
+.app-tabs {
+  align-items: center;
+  border-bottom: 1px solid var(--border-soft);
+  display: flex;
+  gap: 0.25rem;
+}
+
+.app-tab {
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  padding: 0.75rem 0.875rem;
+}
+
+.app-tab-active {
+  border-color: var(--color-primary-600);
+  color: var(--color-primary-700);
+}

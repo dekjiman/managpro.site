@@ -1,0 +1,18 @@
+.app-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.app-content-container {
+  width: 100%;
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .app-content-container {
+    padding: 1rem;
+  }
+}

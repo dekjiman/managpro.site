@@ -1,0 +1,13 @@
+.app-modal-overlay {
+  background: var(--surface-overlay);
+  inset: 0;
+  position: fixed;
+  z-index: 50;
+}
+
+.app-modal-panel {
+  background: var(--surface-card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-modal);
+}

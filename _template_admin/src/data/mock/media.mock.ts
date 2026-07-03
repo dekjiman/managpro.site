@@ -1,0 +1,24 @@
+import type { MediaItem } from '@/types/media'
+
+export const media: MediaItem[] = [
+  { id: 'med-001', name: 'Home Hero Banner', file_type: 'image/jpeg', size: 2457600, dimensions: '1920x1080', url: '/media/hero-banner.jpg', alt_text: 'Home page hero banner with product showcase', uploaded_by: 'Ariana Hart', created_at: '2026-06-01' },
+  { id: 'med-002', name: 'About Team Photo', file_type: 'image/jpeg', size: 3145728, dimensions: '2400x1600', url: '/media/team-photo.jpg', alt_text: 'Our team at the annual company retreat', uploaded_by: 'Mika Chen', created_at: '2026-05-28' },
+  { id: 'med-003', name: 'Product Showcase Video', file_type: 'video/mp4', size: 52428800, dimensions: '1920x1080', url: '/media/product-showcase.mp4', alt_text: 'Product demo video showing key features', uploaded_by: 'Noah Bennett', created_at: '2026-06-05' },
+  { id: 'med-004', name: 'Dashboard Screenshot', file_type: 'image/png', size: 1048576, dimensions: '1440x900', url: '/media/dashboard.png', alt_text: 'Analytics dashboard screenshot', uploaded_by: 'Sofia Lane', created_at: '2026-05-20' },
+  { id: 'med-005', name: 'Company Logo', file_type: 'image/svg+xml', size: 24576, dimensions: '512x512', url: '/media/logo.svg', alt_text: 'Company logo mark', uploaded_by: 'Ilya Novak', created_at: '2026-01-10' },
+  { id: 'med-006', name: 'Introduction Presentation', file_type: 'application/pdf', size: 8388608, dimensions: 'N/A', url: '/media/intro-deck.pdf', alt_text: 'Company introduction slide deck', uploaded_by: 'Ariana Hart', created_at: '2026-06-03' },
+  { id: 'med-007', name: 'Feature Icon Set', file_type: 'image/svg+xml', size: 65536, dimensions: '128x128', url: '/media/icons-features.svg', alt_text: 'Feature icon collection', uploaded_by: 'Mika Chen', created_at: '2026-04-15' },
+  { id: 'med-008', name: 'Product Thumbnail', file_type: 'image/webp', size: 163840, dimensions: '800x600', url: '/media/product-thumb.webp', alt_text: 'Product thumbnail for blog card', uploaded_by: 'Noah Bennett', created_at: '2026-06-08' },
+  { id: 'med-009', name: 'Office Tour Video', file_type: 'video/mp4', size: 36700160, dimensions: '3840x2160', url: '/media/office-tour.mp4', alt_text: 'Virtual office tour video', uploaded_by: 'Sofia Lane', created_at: '2026-05-15' },
+  { id: 'med-010', name: 'Case Study PDF', file_type: 'application/pdf', size: 2097152, dimensions: 'N/A', url: '/media/case-study-acme.pdf', alt_text: 'Acme Corp case study PDF', uploaded_by: 'Maya Singh', created_at: '2026-06-02' },
+  { id: 'med-011', name: 'Background Pattern', file_type: 'image/png', size: 524288, dimensions: '2560x1440', url: '/media/bg-pattern.png', alt_text: 'Subtle background pattern for website sections', uploaded_by: 'Ilya Novak', created_at: '2026-03-20' },
+  { id: 'med-012', name: 'Testimonial Audio', file_type: 'audio/mpeg', size: 5242880, dimensions: 'N/A', url: '/media/testimonial-john.mp3', alt_text: 'Customer testimonial audio recording', uploaded_by: 'Ariana Hart', created_at: '2026-05-30' },
+  { id: 'med-013', name: 'Mobile App Mockup', file_type: 'image/png', size: 786432, dimensions: '1080x1920', url: '/media/mobile-mockup.png', alt_text: 'Mobile app screen mockup', uploaded_by: 'Mika Chen', created_at: '2026-06-07' },
+  { id: 'med-014', name: 'API Documentation Bundle', file_type: 'application/zip', size: 15728640, dimensions: 'N/A', url: '/media/api-docs-v2.zip', alt_text: 'API documentation zip archive', uploaded_by: 'Ilya Novak', created_at: '2026-06-10' },
+  { id: 'med-015', name: 'Social Media Kit', file_type: 'image/png', size: 4194304, dimensions: '1200x630', url: '/media/social-kit.png', alt_text: 'Social media sharing image template', uploaded_by: 'Sofia Lane', created_at: '2026-05-25' },
+  { id: 'med-016', name: 'Email Template', file_type: 'text/html', size: 32768, dimensions: 'N/A', url: '/media/welcome-email.html', alt_text: 'Welcome email HTML template', uploaded_by: 'Noah Bennett', created_at: '2026-04-10' },
+  { id: 'med-017', name: 'Illustration Set', file_type: 'image/svg+xml', size: 98304, dimensions: '256x256', url: '/media/illustrations.svg', alt_text: 'Custom illustration vector set', uploaded_by: 'Maya Singh', created_at: '2026-05-05' },
+  { id: 'med-018', name: 'Brand Guidelines PDF', file_type: 'application/pdf', size: 12582912, dimensions: 'N/A', url: '/media/brand-guidelines.pdf', alt_text: 'Brand style guide document', uploaded_by: 'Mika Chen', created_at: '2026-02-28' },
+  { id: 'med-019', name: 'Product Screenshot 2', file_type: 'image/png', size: 8912896, dimensions: '2880x1800', url: '/media/product-screenshot-2.png', alt_text: 'Feature detail page screenshot', uploaded_by: 'Noah Bennett', created_at: '2026-06-09' },
+  { id: 'med-020', name: 'Webinar Recording', file_type: 'video/mp4', size: 209715200, dimensions: '1920x1080', url: '/media/webinar-q2-2026.mp4', alt_text: 'Q2 2026 product webinar recording', uploaded_by: 'Ariana Hart', created_at: '2026-06-12' },
+]

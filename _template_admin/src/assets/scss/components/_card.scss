@@ -1,0 +1,24 @@
+.app-card {
+  background: var(--surface-card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.app-card-header {
+  align-items: flex-start;
+  border-bottom: 1px solid var(--border-soft);
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+}
+
+.app-card-content {
+  padding: 1.25rem;
+}
+
+.app-card-footer {
+  border-top: 1px solid var(--border-soft);
+  padding: 1rem 1.25rem;
+}

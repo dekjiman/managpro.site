@@ -1,0 +1,9 @@
+.app-focus-ring:focus-visible {
+  box-shadow: var(--shadow-focus-primary);
+  outline: none;
+}
+
+.app-scrollbar {
+  scrollbar-color: var(--color-secondary-300) transparent;
+  scrollbar-width: thin;
+}

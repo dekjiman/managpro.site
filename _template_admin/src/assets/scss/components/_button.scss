@@ -1,0 +1,73 @@
+.app-btn {
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: var(--text-button-size);
+  font-weight: var(--font-weight-medium);
+  gap: 0.5rem;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0.5rem 0.875rem;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+
+  &:focus-visible {
+    box-shadow: var(--shadow-focus-primary);
+    outline: none;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+  }
+}
+
+.app-btn-primary {
+  background: var(--action-primary-bg);
+  border-color: var(--action-primary-border);
+  color: var(--action-primary-text);
+
+  &:hover:not(:disabled) {
+    background: var(--action-primary-bg-hover);
+  }
+}
+
+.app-btn-secondary {
+  background: var(--action-secondary-bg);
+  border-color: var(--action-secondary-border);
+  color: var(--action-secondary-text);
+
+  &:hover:not(:disabled) {
+    background: var(--action-secondary-bg-hover);
+  }
+}
+
+.app-btn-ghost {
+  background: var(--action-ghost-bg);
+  color: var(--action-ghost-text);
+
+  &:hover:not(:disabled) {
+    background: var(--action-ghost-bg-hover);
+    color: var(--action-ghost-text-hover);
+  }
+}
+
+.app-btn-danger {
+  background: var(--action-danger-bg);
+  color: var(--action-danger-text);
+
+  &:hover:not(:disabled) {
+    background: var(--action-danger-bg-hover);
+  }
+}
+
+.app-btn-sm {
+  min-height: 2rem;
+  padding: 0.375rem 0.625rem;
+}
+
+.app-btn-icon {
+  width: 2.5rem;
+  padding: 0;
+}
