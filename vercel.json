@@ -2,5 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "pnpm install",
   "buildCommand": "turbo run build --filter=@kan/web --filter=@kan/api --filter=@kan/db --filter=@kan/shared --filter=@kan/auth --filter=@kan/stripe --filter=@kan/logger",
-  "outputDirectory": "apps/web/.next"
+  "framework": "nextjs",
+  "outputDirectory": ".next",
+  "rootDirectory": "apps/web"
 }
