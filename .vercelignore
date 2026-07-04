@@ -1,0 +1,7 @@
+# Ignore non-web apps
+apps/docs/
+_template_admin/
+cloud/
+turbo/
+tooling/
+packages/mcp/
