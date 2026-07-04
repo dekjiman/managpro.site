@@ -3,6 +3,5 @@
   "installCommand": "pnpm install",
   "buildCommand": "turbo run build --filter=@kan/web --filter=@kan/api --filter=@kan/db --filter=@kan/shared --filter=@kan/auth --filter=@kan/stripe --filter=@kan/logger",
   "framework": "nextjs",
-  "outputDirectory": ".next",
-  "rootDirectory": "apps/web"
+  "outputDirectory": ".next"
 }
