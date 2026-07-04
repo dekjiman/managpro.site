@@ -1,9 +1,6 @@
 {
   "extends": "@kan/tsconfig/internal-package.json",
-  "compilerOptions": {
-    "skipLibCheck": true,
-    "esModuleInterop": true
-  },
+  "compilerOptions": {},
   "include": ["*.ts", "src"],
   "exclude": ["node_modules"]
 }
